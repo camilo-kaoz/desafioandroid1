@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import com.squareup.picasso.Picasso;
 
-public class MainActivity extends AppCompatActivity {
+public class Main2Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,15 +31,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(MainActivity.this, "acabas de ingresar a jumanji", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Main2Activity.this, "acabas de ingresar a jumanji", Toast.LENGTH_SHORT).show();
 
-                intentExample();
+                Intent intent = new Intent (Main2Activity.this,Main3Activity.class);
+                startActivity(intent);
             }
         });
-    }
 
-    private void intentExample(){
-        Intent intent = new Intent(this, Main2Activity.class);
-        startActivity(intent);
+
+
+
     }
 }

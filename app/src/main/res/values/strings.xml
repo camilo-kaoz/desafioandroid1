@@ -1,4 +1,17 @@
 <resources>
     <string name="app_name">mi primera app</string>
     <string name="title_activity_main2">Main2Activity</string>
+    <string name="hello_world">Hello World</string>
+    <string name="entrar">Entrar</string>
+    <string name="todo">TODO</string>
+
+    <string name="inicio_spinner">¿qué te ha parecido este ejemplo?</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="Masculino">Masculino</string>
+    <string name="Femenino">Femenino</string>
+    <string name="edad">Edad</string>
+    <string name="ingresar_email">Ingresar Email</string>
+    <string name="nombre_de_usuario">Nombre de Usuario</string>
+    <string name="confirmar_contrase_a">Confirmar Contraseña</string>
+    <string name="ingresar_contrase_a">Ingresar Contraseña</string>
 </resources>
